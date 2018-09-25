@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-24T12:04:48Z" name="Suite" finished-at="2018-09-24T12:05:57Z" duration-ms="68887">
+    <groups>
+    </groups>
+    <test started-at="2018-09-24T12:04:48Z" name="Test" finished-at="2018-09-24T12:05:57Z" duration-ms="68887">
+      <class name="tEstCase.TC_01_Homepage">
+        <test-method is-config="true" signature="Openbrowser(java.lang.String)[pri:0, instance:tEstCase.TC_01_Homepage@3a44431a]" started-at="2018-09-24T12:04:38Z" name="Openbrowser" finished-at="2018-09-24T12:04:48Z" duration-ms="10515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method signature="TC01(java.lang.String)[pri:1, instance:tEstCase.TC_01_Homepage@3a44431a]" started-at="2018-09-24T12:04:48Z" name="TC01" finished-at="2018-09-24T12:05:14Z" duration-ms="25943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://yattedup.sigmasolve.net/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method signature="TC02()[pri:2, instance:tEstCase.TC_01_Homepage@3a44431a]" started-at="2018-09-24T12:05:14Z" name="TC02" finished-at="2018-09-24T12:05:57Z" duration-ms="42894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+      </class> <!-- tEstCase.TC_01_Homepage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
